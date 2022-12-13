@@ -1,0 +1,59 @@
+.reviewlist ul li {
+    margin: 1rem;
+}
+
+.review.info {
+    margin: auto;
+    width: 20rem;;
+}
+.review.info ul {
+    text-align: left;
+}
+.review.info ul li {
+    margin: 1rem 0;
+}
+.review.quizlist ul {
+    padding: 0;
+}
+.review.quizcard {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem 3rem;
+}
+.review.quizcard .question {
+    font-size: 1.2rem;
+}
+.review.quizcard ul {
+    text-align: left;
+}
+.review.quizcard ul > li {
+    padding: 0.5rem;
+}
+.review.quizcard ul > li .correct{
+    color: greenyellow
+}
+.review.quizcard ul > li .incorrect{
+    color: red
+}
+
+.review.chart-wrapper {
+    padding-bottom: 5rem;
+}
+
+.review.button-group {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    display:block;
+    background-color: var(--main-color);
+    border-width: 5px;
+    border-color: black;
+    border-radius: 1rem 1rem 0 0;
+  }
+  .review.button-group  button {
+    width: 40%;
+    margin: 1rem;
+    font-size: var(--head-font-size)
+  }

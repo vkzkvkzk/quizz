@@ -1,0 +1,10 @@
+.info {
+    margin: auto;
+    width: 20rem;;
+}
+.info ul {
+    text-align: left;
+}
+.info ul li {
+    margin: 1rem 0;
+}

@@ -1,0 +1,51 @@
+.timer {
+    position:fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: var(--desc-font-size);
+}
+
+.quizlist ul {
+    padding: 0;
+}
+.quizcard {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 3rem;
+}
+.quizcard .question {
+    font-size: 1.2rem;
+}
+.quizcard ul {
+    text-align: left;
+}
+.quizcard ul > li {
+    padding: 0.5rem;
+}
+
+.modal-contents{
+    position: fixed;
+    top:40%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    text-align: center;
+    width: 40%;
+}
+.modal-contents .content {
+    padding: 0 0.5rem;
+}
+.modal-contents .content .desc {
+    font-size: var(--head-font-size);
+    padding: 0.5rem;
+}
+.modal-contents .content .button {
+    padding: 0.5rem;
+}
+  .button-group {
+    width: 70%;
+    display:inline-grid;
+  }
+  .button-group > button {
+    margin: 1rem;
+    font-size: 1.5rem;
+  }

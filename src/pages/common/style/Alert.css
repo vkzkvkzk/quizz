@@ -1,0 +1,22 @@
+.alert-contents{
+    position: fixed;
+    margin: auto;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3rem 5rem;
+    text-align: center;
+    width: 60%;
+}
+
+.alert-contents .content {
+    padding: 1rem;
+}
+
+.alert-contents .content .alert-title{
+    padding: 1rem;
+}
+
+.alert-contents .content .alert-content{
+    padding: 2rem 0;
+}
